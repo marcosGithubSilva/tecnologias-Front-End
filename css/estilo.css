@@ -1,0 +1,10 @@
+
+#home {
+    background: #17A2B8;
+    color: white;
+    background-image: url('../img/padrao-patas.png');
+}
+
+.bg-info {
+    background-color: black;
+}
