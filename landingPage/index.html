@@ -17,11 +17,11 @@
     <!--Fontes Awesome para utilização de Ícones-->
     <script src="https://kit.fontawesome.com/566192ea3e.js" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap 5 CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 
-    <!--Meu estilo-->
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!--Meu estilo SASS-->
+    <link rel="stylesheet" type="text/css" href="sass/estilo.css">
 
     <title>Landing Page SilvaPet</title>
 
@@ -42,7 +42,7 @@
                 <!-- i: inserir um ícone -->
                 <!--fas fa-venus-double: Fontes Awesome para utilização de Ícones-->
                 <i class="fas fa-paw"></i>
-                <span>PetShop SilvaPet</span>
+                <span>Clínica SilvaPet</span>
             </a>
 
             <!--Botão Sanduiche e responsividade-->
@@ -66,10 +66,12 @@
 
             </div>
 
-        </div><!--Fecha Container-->
-        
-    </header><!--Fecha Header-->
-    
+        </div>
+        <!--Fecha Container-->
+
+    </header>
+    <!--Fecha Header-->
+
 
     <!--Criando uma seção-->
     <!--Inicio da Seção-->
@@ -93,22 +95,6 @@
                             e reagirão de acordo. Todos os dias, eles estão ao nosso lado servindo
                             como um companheiro fiel e amigo constante.
                         </p>
-
-
-
-                        <!--Inserir ícone de plataformas-->
-                        <p>Disponível para:
-
-                            <a href="" class="btn btn-outline-light">
-                                <!--Retirado do fontawesome-->
-                                <i class="fab fa-android fa-lg"></i>
-                            </a>
-
-                            <a href="" class="btn btn-outline-light">
-                                <!--Retirado do fontawesome-->
-                                <i class="fab fa-apple fa-lg"></i>
-                            </a>
-                        </p>
                     </div>
                 </div>
 
@@ -129,7 +115,7 @@
 
 
     <!--Abre Seção informação1-->
-    <section class="espaco">
+    <section>
 
         <!--Criando um container-->
         <div class="container">
@@ -141,8 +127,8 @@
                 <div class="col-md-6 d-flex">
 
                     <!--Criar div para centralizar o texto-->
-                    <div class="align-self-center">
-                        <h2>Quem somos! (texto fictício)</h2>
+                    <div class="align-self-center mt-3">
+                        <h2>Quem somos!</h2>
                         <p>
                             Somos uma empresa preparada para cuidar
                             do pet. Seja ele cachorro, gato, até mesmo um elefante.
@@ -170,7 +156,7 @@
     <!--Fecha Seção Informação1-->
 
     <!--Abre Seção informação2-->
-    <section class="espaco">
+    <section>
 
         <!--Criando um container-->
         <div class="container">
@@ -188,7 +174,7 @@
                 <!--Textos-->
                 <div class="col-md-6 d-flex">
                     <!--Criar div para centralizar o texto-->
-                    <div class="align-self-center">
+                    <div class="align-self-center mt-3">
                         <h2>Profissionais Qualificados!</h2>
                         <p>
                             Seu Pet será atendido pelos melhores
@@ -207,10 +193,6 @@
     <!--Fecha Seção Informação2-->
 
 
-
-
-
-
     <!--Animais para adoção-->
     <section id="adocao" class="bg-info text-white m-4">
         <!--Crindo minha row para dividir os espaços-->
@@ -223,14 +205,6 @@
 
         </div>
     </section>
-
-
-
-
-
-
-
-
 
 
 
@@ -249,8 +223,8 @@
                         <img src="img/gato1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Sr Phil</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text">É possível julgar o verdadeiro caráter de um ser humano
+                                pela forma como trata os animais, <br>Paul McCartney.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">1 ano</small>
@@ -260,8 +234,9 @@
                         <img src="img/gato2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Tobias</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
+                            <p class="card-text">Os animais não são propriedades ou coisas, mas organismos vivos,
+                                sujeitos a uma vida, que merecem nossa compaixão, respeito, amizade e apoio", <br>Marc
+                                Bekoff.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">2 anos</small>
@@ -271,9 +246,8 @@
                         <img src="img/gato3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Winston </h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to show that equal
-                                height action.</p>
+                            <p class="card-text">Não devemos esquecer que os animais existem por sua própria razão.
+                                Eles não foram feitos para agradar os humanos, <br>Alice Walker.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">3 anos</small>
@@ -285,8 +259,6 @@
         </div>
 
     </section>
-
-
 
 
 
@@ -304,8 +276,8 @@
                         <img src="img/cao1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Sam</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text">Para comprar um animal você só precisa de dinheiro.
+                                Para adotar um animal precisa apenas de um coração.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">1 ano</small>
@@ -315,8 +287,8 @@
                         <img src="img/cao2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Joca</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
+                            <p class="card-text">Não há diferença fundamental entre humanos e animais
+                                na capacidade de sentir prazer e dor, felicidade e miséria, <br>Charles Darwin.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">2 anos</small>
@@ -326,9 +298,9 @@
                         <img src="img/cao3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Marley </h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to show that equal
-                                height action.</p>
+                            <p class="card-text">Os animais são confiáveis, cheios de amor,
+                                gratos e leais, regras difíceis para as pessoas seguirem",
+                                <br>Alfred A. Montapert.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">3 anos</small>
@@ -498,13 +470,8 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
     </section>
-
-
-
 
 
     <!--Rodapé-->
@@ -512,12 +479,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <p>
-                        <a href="index.html">Home</a>
-                        <a href="index.html">Empresa</a>
-                        <a href="">Galeria</a>
-                        <a href="">Produtos</a>
-                    </p>
+                    <a href="index.html"><button class="btn btn-info text-light">VOLTAR PARA O TOPO</button></a>
                 </div>
 
                 <div class="col-md-4 d-flex justify-content-end">
@@ -547,18 +509,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -567,9 +517,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js"></script>
 </body>
 
 </html>
